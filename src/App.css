@@ -40,3 +40,110 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f8ff, #e0e7ff);
+}
+
+.todo-wrapper {
+  max-width: 650px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.todo-button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.todo-button:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+}
+
+.filter-button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background: #0056b3;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.todo-text {
+  flex-grow: 1;
+}
+
+.edit-button {
+  background: #ffc107;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.edit-button:hover {
+  background: #e0a800;
+}
+
+.delete-button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background: #c82333;
+}
